@@ -17,14 +17,14 @@ const Home: NextPage = () => {
         </div>
         <div className="flex flex-row bg-slate-50 mx-8 rounded-md">
           <div className="flex-col mx-2 my-2 flex-auto">
-            <button disabled className="rounded-full bg-slate-200">
+            <button disabled className="rounded-full bg-slate-200 items-center">
               <h1 className="px-2 py-1 font-semibold text-gray-700">Last week</h1>
             </button>
             {/* card code*/}
             <div className="bg-white mx-2 my-2 rounded-md shadow-md"> 
               <h1 className="font-semibold px-2 py-2 text-base">Review scope</h1> 
               <p className="text-gray-600 px-2">Description</p>
-              <button disabled className="rounded-sm bg-red-300 mx-2 my-2">
+              <button disabled className="rounded-sm bg-red-300 mx-2 my-2 items-center">
                 <p className="px-2 font-semibold text-gray-800">Due 4/11</p>
               </button>
             </div>

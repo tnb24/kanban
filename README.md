@@ -7,3 +7,4 @@ To Do:
 
 - [ ] Implement "This Week" & "Next Week" column
 - [ ] Implement drag and drop
+- [ ] Make components like Labels & Cards reproducible 
