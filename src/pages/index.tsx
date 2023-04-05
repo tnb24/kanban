@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         </div>
         <div className="flex flex-row bg-slate-50 mx-8 rounded-md">
           <div className="flex-col mx-2 my-2 flex-auto">
-            <button disabled className="rounded-full bg-slate-200 items-center">
+            <button disabled className="rounded-full bg-slate-200 items-center ml-2">
               <h1 className="px-2 py-1 font-semibold text-gray-700">Last week</h1>
             </button>
             {/* card code*/}
