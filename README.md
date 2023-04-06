@@ -5,6 +5,6 @@ The design is taken from [here](https://www.figma.com/file/HbVlYRqVxZPcbuAytZgNu
 
 To Do:
 
-- [ ] Implement "This Week" & "Next Week" column
+- [-] Implement "This Week" & "Next Week" column
 - [ ] Implement drag and drop
-- [ ] Make components like Labels & Cards reproducible 
+- [-] Make components like Labels & Cards reproducible 

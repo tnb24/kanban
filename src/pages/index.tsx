@@ -1,7 +1,6 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 import { type NextPage } from "next";
 import Head from "next/head";
-
+import Card from "~/components/card";
 const Home: NextPage = () => {
   return (
     <>
@@ -12,34 +11,59 @@ const Home: NextPage = () => {
       </Head>
       <main className="flex flex-col font-inter">
         <div className="mx-10 my-10">
-          <h1 className="font-bold text-3xl">Kanban Board</h1>
-          <p className="text-gray-600 text-sm">A board to track your progress.</p>
+          <h1 className="text-3xl font-bold">Kanban Board</h1>
+          <p className="text-sm text-gray-600">
+            A board to track your progress.
+          </p>
         </div>
-        <div className="flex flex-row bg-slate-50 mx-8 rounded-md">
-          <div className="flex-col mx-2 my-2 flex-auto">
-            <button disabled className="rounded-full bg-slate-200 items-center ml-2">
-              <h1 className="px-2 py-1 font-semibold text-gray-700">Last week</h1>
+        <div className="mx-8 flex flex-row rounded-md bg-slate-50">
+          <div className="mx-2 my-2 flex-auto flex-col">
+            <button
+              disabled
+              className="ml-2 items-center rounded-full bg-[#E1E4E8]"
+            >
+              <h1 className="px-2 py-1 font-semibold text-gray-700">
+                Last week
+              </h1>
             </button>
-            {/* card code*/}
-            <div className="bg-white mx-2 my-2 rounded-md shadow-md"> 
-              <h1 className="font-semibold px-2 py-2 text-base">Review scope</h1> 
-              <p className="text-gray-600 px-2">Description</p>
-              <button disabled className="rounded-sm bg-red-300 mx-2 my-2 items-center">
-                <p className="px-2 font-semibold text-gray-800">Due 4/11</p>
-              </button>
-            </div>
-
-            <div> item 2 </div>
+            <Card
+              title="Review scope"
+              description="Description"
+              tag="Due 4/11"
+              color="bg-red-300"
+            />
           </div>
-          <div className="flex-col flex-auto">
-            <h1>This Week</h1>
-            <div> item 1 </div>
-            <div> item 2 </div>
+          <div className="mx-2 my-2 flex-auto flex-col">
+            <button
+              disabled
+              className="ml-2 items-center rounded-full bg-[#F0E7F6]"
+            >
+              <h1 className="px-2 py-1 font-semibold text-gray-700">
+                This week
+              </h1>
+            </button>
+            <Card
+              title="Usability test"
+              description="Description"
+              tag="Research"
+              color="bg-[#CBDFD8]"
+            />
           </div>
-          <div className="flex-col flex-auto">
-            <h1>Next Week</h1>
-            <div> item 1 </div>
-            <div> item 2 </div>
+          <div className="mx-2 my-2 flex-auto flex-col">
+            <button
+              disabled
+              className="ml-2 items-center rounded-full bg-[#FFDCE0]"
+            >
+              <h1 className="px-2 py-1 font-semibold text-gray-700">
+                Next week
+              </h1>
+            </button>
+            <Card
+              title="Culture workshop"
+              description="Description"
+              tag="Due 24/11"
+              color="bg-red-300"
+            />
           </div>
         </div>
       </main>
