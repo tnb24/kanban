@@ -5,6 +5,6 @@ The design is taken from [here](https://www.figma.com/file/HbVlYRqVxZPcbuAytZgNu
 
 To Do:
 
-- [-] Implement "This Week" & "Next Week" column
-- [-] Make components like Labels & Cards reproducible 
-- [-] Small UX changes to make the exp more enjoyable
+- [x] Implement "This Week" & "Next Week" column
+- [x] Make components like Labels & Cards reproducible 
+- [x] Small UX changes to make the exp more enjoyable
