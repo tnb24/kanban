@@ -2,7 +2,7 @@ import { type NextPage } from "next";
 import Head from "next/head";
 import Card from "~/components/card";
 
-const Home: NextPage = () => {
+const Home: NextPage = () => {  
   return (
     <>
       <Head>
@@ -33,6 +33,12 @@ const Home: NextPage = () => {
               tag="Due 4/11"
               color="bg-red-300"
             />
+            <Card
+              title="Team meeting"
+              description="Description"
+              tag="Due 4/9"
+              color="bg-red-300"
+            />
           </div>
           <div className="mx-2 my-2 flex-auto flex-col">
             <button
@@ -45,6 +51,12 @@ const Home: NextPage = () => {
             </button>
             <Card
               title="Usability test"
+              description="Description"
+              tag="Research"
+              color="bg-[#CBDFD8]"
+            />
+             <Card
+              title="New strategies"
               description="Description"
               tag="Research"
               color="bg-[#CBDFD8]"
@@ -63,6 +75,12 @@ const Home: NextPage = () => {
               title="Culture workshop"
               description="Description"
               tag="Due 24/11"
+              color="bg-red-300"
+            />
+             <Card
+              title="Deadline of project"
+              description="Description"
+              tag="Due 21/11"
               color="bg-red-300"
             />
           </div>

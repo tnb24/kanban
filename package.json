@@ -1,7 +1,6 @@
 {
   "name": "kanban",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
@@ -9,9 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "framer-motion": "^10.11.2",
     "next": "^13.2.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
     "zod": "^3.21.4"
   },
   "devDependencies": {
