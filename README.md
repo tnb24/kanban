@@ -7,4 +7,4 @@ To Do:
 
 - [-] Implement "This Week" & "Next Week" column
 - [-] Make components like Labels & Cards reproducible 
-- [ ] ~~Implement drag and drop~~ Not doing this too much work :/
+- [-] Small UX changes to make the exp more enjoyable
