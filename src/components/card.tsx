@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { useRef } from "react";
 
 interface Data {
   title: string;
@@ -9,8 +8,6 @@ interface Data {
 }
 
 export default function Card({ title, description, tag, color }: Data) {
-  const constraintsRef = useRef(null);
-
   return (
     <motion.div
       whileHover={{ scale: 1.05 }}
